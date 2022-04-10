@@ -7,4 +7,4 @@ app = Flask(__name__)
 app.register_blueprint(routes, url_prefix='/star')
 
 if __name__ == '__main__':
-    app.run(port=80, host='gl-server.herokuapp.com', debug=True)
+    app.run(port=80, debug=True)
